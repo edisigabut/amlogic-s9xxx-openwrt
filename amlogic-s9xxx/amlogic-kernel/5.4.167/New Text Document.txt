@@ -1,0 +1,35 @@
+Command di Terminal emulator
+su
+cd /sdcard/Download
+dd if=uboot.bin of=/dev/block/bootloader
+reboot update
+
+
+
+usbmode -v -s -c /etc/cyborg.json
+echo '05c6 9201' > /sys/bus/usb-serial/drivers/option1/new_id
+
+
+https://dns.adguard.com/dns-query
+https://dns.google/dns-query
+https://dns.cloudflare.com/dns-query
+tls://dns.adguard.com
+tls://dns.google
+tls://1dot1dot1dot1.cloudflare-dns.com
+
+	   <div data-netdata="net.br_lan" 
+			data-chart-library="dygraph" 
+			data-title="BR_LAN"
+			data-height="150px"			
+			data-width="100%" 
+			data-after="-720" 
+			data-points="720" 
+			data-colors="#66AA00">
+	   </div>
+
+114.114.114.114 UDP
+119.29.29.29 UDP
+dns.cloudflare.com/dns-query HTTPS
+dns.rubyfish.cn/dns-query HTTPS
+1.1.1.1/dns-query HTTPS
+8.8.8.8 port 853 TLS
